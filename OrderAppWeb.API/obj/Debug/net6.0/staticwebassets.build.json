@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fFDjRhFJKRTihiiLJqY0UucUeTR+Jya0Xck90Sxu8/A=",
+  "Source": "OrderAppWeb.API",
+  "BasePath": "_content/OrderAppWeb.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

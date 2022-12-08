@@ -1,0 +1,104 @@
+2022-12-08 15:57:51.492 +03:00 [INF] Now listening on: https://localhost:7188
+2022-12-08 15:57:51.503 +03:00 [INF] Now listening on: http://localhost:5188
+2022-12-08 15:57:51.507 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 15:57:51.507 +03:00 [INF] Hosting environment: Development
+2022-12-08 15:57:51.507 +03:00 [INF] Content root path: C:\Users\STUS\source\repos\OrderAppWeb.API\OrderAppWeb.API\
+2022-12-08 15:57:51.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - -
+2022-12-08 15:57:52.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - -
+2022-12-08 15:57:52.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 9.9941ms
+2022-12-08 15:57:52.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - - - 200 - text/html;charset=utf-8 498.5396ms
+2022-12-08 15:57:52.390 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - -
+2022-12-08 15:57:52.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.7054ms
+2022-12-08 15:57:52.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - -
+2022-12-08 15:57:52.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 260.4258ms
+2022-12-08 15:58:02.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Order - -
+2022-12-08 15:58:02.562 +03:00 [INF] Executing endpoint 'OrderAppWeb.API.Controllers.OrderController.Get (OrderAppWeb.API)'
+2022-12-08 15:58:02.587 +03:00 [INF] Route matched with {action = "Get", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String) on controller OrderAppWeb.API.Controllers.OrderController (OrderAppWeb.API).
+2022-12-08 15:58:20.479 +03:00 [INF] Entity Framework Core 6.0.11 initialized 'OrderDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.31-mysql 
+2022-12-08 15:58:20.949 +03:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`Category`, `p`.`CreateDate`, `p`.`Description`, `p`.`Status`, `p`.`Unit`, `p`.`UnitPrice`, `p`.`UpdateDate`
+FROM `Products` AS `p`
+2022-12-08 15:58:24.702 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderAppWeb.API.Models.Results.ApiResponse`1[[System.Collections.Generic.List`1[[OrderAppWeb.API.Models.Dtos.ProductDto, OrderAppWeb.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-12-08 15:58:26.621 +03:00 [INF] Executed action OrderAppWeb.API.Controllers.OrderController.Get (OrderAppWeb.API) in 24016.0902ms
+2022-12-08 15:58:26.623 +03:00 [INF] Executed endpoint 'OrderAppWeb.API.Controllers.OrderController.Get (OrderAppWeb.API)'
+2022-12-08 15:58:26.652 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Order - - - 200 - application/json;+charset=utf-8 24097.2175ms
+2022-12-08 15:58:32.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Order - -
+2022-12-08 15:58:32.197 +03:00 [INF] Executing endpoint 'OrderAppWeb.API.Controllers.OrderController.Get (OrderAppWeb.API)'
+2022-12-08 15:58:32.197 +03:00 [INF] Route matched with {action = "Get", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String) on controller OrderAppWeb.API.Controllers.OrderController (OrderAppWeb.API).
+2022-12-08 15:58:40.255 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderAppWeb.API.Models.Results.ApiResponse`1[[System.Collections.Generic.List`1[[OrderAppWeb.API.Models.Dtos.ProductDto, OrderAppWeb.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-12-08 15:58:41.495 +03:00 [INF] Executed action OrderAppWeb.API.Controllers.OrderController.Get (OrderAppWeb.API) in 9297.6589ms
+2022-12-08 15:58:41.496 +03:00 [INF] Executed endpoint 'OrderAppWeb.API.Controllers.OrderController.Get (OrderAppWeb.API)'
+2022-12-08 15:58:41.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Order - - - 200 - application/json;+charset=utf-8 9298.9273ms
+2022-12-08 16:11:56.167 +03:00 [INF] Now listening on: https://localhost:7188
+2022-12-08 16:11:56.178 +03:00 [INF] Now listening on: http://localhost:5188
+2022-12-08 16:11:56.182 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 16:11:56.183 +03:00 [INF] Hosting environment: Development
+2022-12-08 16:11:56.183 +03:00 [INF] Content root path: C:\Users\STUS\source\repos\OrderAppWeb.API\OrderAppWeb.API\
+2022-12-08 16:11:56.599 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - -
+2022-12-08 16:11:56.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - -
+2022-12-08 16:11:56.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 15.0641ms
+2022-12-08 16:11:56.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - - - 200 - text/html;charset=utf-8 393.9179ms
+2022-12-08 16:11:57.010 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - -
+2022-12-08 16:11:57.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3756ms
+2022-12-08 16:11:57.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - -
+2022-12-08 16:11:57.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 254.6423ms
+2022-12-08 16:13:08.661 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7188/api/Order application/json 310
+2022-12-08 16:13:08.682 +03:00 [INF] Executing endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:13:08.713 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderAppWeb.API.Models.Dtos.CreateOrderRequest) on controller OrderAppWeb.API.Controllers.OrderController (OrderAppWeb.API).
+2022-12-08 16:13:09.329 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-08 16:13:09.349 +03:00 [INF] Executed action OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API) in 625.3259ms
+2022-12-08 16:13:09.352 +03:00 [INF] Executed endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:13:09.357 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7188/api/Order application/json 310 - 400 - application/problem+json;+charset=utf-8 696.4090ms
+2022-12-08 16:13:35.486 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7188/api/Order application/json 211
+2022-12-08 16:13:35.487 +03:00 [INF] Executing endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:13:35.502 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderAppWeb.API.Models.Dtos.CreateOrderRequest) on controller OrderAppWeb.API.Controllers.OrderController (OrderAppWeb.API).
+2022-12-08 16:13:36.596 +03:00 [INF] Entity Framework Core 6.0.11 initialized 'OrderDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.31-mysql 
+2022-12-08 16:13:37.136 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Orders` (`CustomerEmail`, `CustomerGSM`, `CustomerName`, `TotalAmount`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `Id`
+FROM `Orders`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2022-12-08 16:13:37.196 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `OrderDetails` (`OrderId`, `ProductId`, `UnitPrice`)
+VALUES (@p4, @p5, @p6);
+SELECT `Id`
+FROM `OrderDetails`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2022-12-08 16:13:37.284 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderAppWeb.API.Models.Results.ApiResponse`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-12-08 16:13:37.297 +03:00 [INF] Executed action OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API) in 1794.6633ms
+2022-12-08 16:13:37.299 +03:00 [INF] Executed endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:13:37.314 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7188/api/Order application/json 211 - 200 - application/json;+charset=utf-8 1828.9327ms
+2022-12-08 16:14:06.891 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7188/api/Order application/json 310
+2022-12-08 16:14:06.892 +03:00 [INF] Executing endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:14:06.893 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderAppWeb.API.Models.Dtos.CreateOrderRequest) on controller OrderAppWeb.API.Controllers.OrderController (OrderAppWeb.API).
+2022-12-08 16:14:06.905 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-08 16:14:06.906 +03:00 [INF] Executed action OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API) in 9.7035ms
+2022-12-08 16:14:06.906 +03:00 [INF] Executed endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:14:06.906 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7188/api/Order application/json 310 - 400 - application/problem+json;+charset=utf-8 15.5855ms
+2022-12-08 16:14:33.871 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7188/api/Order application/json 284
+2022-12-08 16:14:33.871 +03:00 [INF] Executing endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:14:33.875 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderAppWeb.API.Models.Dtos.CreateOrderRequest) on controller OrderAppWeb.API.Controllers.OrderController (OrderAppWeb.API).
+2022-12-08 16:14:33.928 +03:00 [INF] Entity Framework Core 6.0.11 initialized 'OrderDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.31-mysql 
+2022-12-08 16:14:33.948 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Orders` (`CustomerEmail`, `CustomerGSM`, `CustomerName`, `TotalAmount`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `Id`
+FROM `Orders`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2022-12-08 16:14:33.955 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `OrderDetails` (`OrderId`, `ProductId`, `UnitPrice`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`
+FROM `OrderDetails`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2022-12-08 16:14:33.958 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `OrderDetails` (`OrderId`, `ProductId`, `UnitPrice`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`
+FROM `OrderDetails`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2022-12-08 16:14:33.960 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderAppWeb.API.Models.Results.ApiResponse`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-12-08 16:14:33.960 +03:00 [INF] Executed action OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API) in 83.8377ms
+2022-12-08 16:14:33.960 +03:00 [INF] Executed endpoint 'OrderAppWeb.API.Controllers.OrderController.CreateOrder (OrderAppWeb.API)'
+2022-12-08 16:14:33.961 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7188/api/Order application/json 284 - 200 - application/json;+charset=utf-8 90.0543ms
